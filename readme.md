@@ -5,10 +5,6 @@ conda create -n <env_name> python=3.8
 conda activate <env_name>
 pip install -r requirements.txt
 ```
-## Download
-```
-bash download.sh
-```
 
 ## Brain MRI
 ### Training
@@ -68,3 +64,5 @@ python3 miou.py --loss_type <loss_type> --output_dir <output_dir>
 * loss_type: default=dice, choose from ["dice","BCE","MSE"]
 * output_dir: where the image, mask, pred saved
 
+## Ref
+[Brain mri images for tumor detection](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
